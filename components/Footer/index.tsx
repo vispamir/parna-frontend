@@ -37,7 +37,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="dark:text-body-color-dark ml-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <svg
                       width="9"
@@ -51,7 +51,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="dark:text-body-color-dark ml-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <svg
                       width="19"
@@ -65,7 +65,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="dark:text-body-color-dark ml-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <svg
                       width="18"

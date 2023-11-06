@@ -24,8 +24,8 @@ const BlogDetailsPage = () => {
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
-                    <div className="mb-5 mr-10 flex items-center">
-                      <div className="mr-4">
+                    <div className="mb-5 ml-10 flex items-center">
+                      <div className="ml-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <Image
                             src="/images/blog/author-02.png"
@@ -41,8 +41,8 @@ const BlogDetailsPage = () => {
                       </div>
                     </div>
                     <div className="mb-5 flex items-center">
-                      <p className="mr-5 flex items-center text-base font-medium text-body-color">
-                        <span className="mr-3">
+                      <p className="ml-5 flex items-center text-base font-medium text-body-color">
+                        <span className="ml-3">
                           <svg
                             width="15"
                             height="15"
@@ -62,8 +62,8 @@ const BlogDetailsPage = () => {
                         </span>
                         12 Jan 2024
                       </p>
-                      <p className="mr-5 flex items-center text-base font-medium text-body-color">
-                        <span className="mr-3">
+                      <p className="ml-5 flex items-center text-base font-medium text-body-color">
+                        <span className="ml-3">
                           <svg
                             width="18"
                             height="13"
@@ -78,7 +78,7 @@ const BlogDetailsPage = () => {
                         50
                       </p>
                       <p className="flex items-center text-base font-medium text-body-color">
-                        <span className="mr-3">
+                        <span className="ml-3">
                           <svg
                             width="20"
                             height="12"
