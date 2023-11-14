@@ -24,9 +24,9 @@ const brandsData: Brand[] = [
   },
   {
     id: 4,
-    name: "Ayro UI",
+    name: "Tat Bank",
     href: "https://ayroui.com",
-    image: "/images/brands/ayroui.svg",
+    image: "/images/brands/tatbank.svg",
     imageLight: "/images/brands/ayroui-light.svg",
   },
   {

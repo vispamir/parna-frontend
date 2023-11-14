@@ -4,10 +4,12 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Vazirmatn } from "next/font/google";
+import { Noto_Sans_Arabic } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
 const vazirmatn = Vazirmatn({subsets: []});
+const notoSans = Noto_Sans_Arabic({subsets: []});
 
 export default function RootLayout({
   children,
