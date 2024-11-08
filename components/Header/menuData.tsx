@@ -14,6 +14,12 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 21,
+        title: "زیر ساخت نئوبانک",
+        path: "/products/neobank",
+        newTab: false,
+      },
+      {
+        id: 22,
         title: "زیر ساخت پرداخت یاری",
         path: "/products/payment-facility",
         newTab: false,

@@ -30,7 +30,7 @@ const Breadcrumb = ({
                       href="/"
                       className="pr-1 text-base font-medium text-body-color hover:text-primary"
                     >
-                      Home
+                      خانه
                     </Link>
                     <span className="ml-3 block h-2 w-2 -rotate-45 border-l-2 border-t-2 border-body-color"></span>
                   </li>
