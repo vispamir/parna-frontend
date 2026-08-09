@@ -82,50 +82,100 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  شناخت پرنا
+                  محصولات
                 </h2>
                 <ul>
                   <li>
-                    <a
-                      href="/blogs"
+                    <Link
+                      href="/products/payment-facility"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      مجله پرنا
-                    </a>
+                      زیرساخت پرداخت‌یاری
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/about"
+                    <Link
+                      href="/products/neobank"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      درباره پرنا
-                    </a>
+                      زیرساخت نئوبانک
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  شرکت
+                </h2>
+                <ul>
+                  <li>
+                    <Link
+                      href="/about"
+                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    >
+                      درباره ما
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/about"
+                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    >
+                      راهکارها
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/contact"
+                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    >
+                      مستندات
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/contact"
+                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    >
+                      API
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/contact"
+                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    >
+                      تماس با ما
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full px-4 md:w-1/2 lg:w-3/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   پشتیبانی
                 </h2>
                 <ul>
                   <li>
-                    <a
+                    <Link
                       href="/contact"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      تماس با پرنا
-                    </a>
+                      درخواست مشاوره
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/docs"
+                    <Link
+                      href="/signin"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      مستندات پرنا
-                    </a>
+                      ورود به پنل
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -135,7 +185,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              هرآنچه هست متعلق به پرنا است
+              © {new Date().getFullYear()} پرنا. تمامی حقوق محفوظ است.
             </p>
           </div>
         </div>

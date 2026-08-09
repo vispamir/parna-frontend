@@ -3,45 +3,39 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "خانه",
-    path: "/",
-    newTab: false,
-  },
-  {
-    id: 2,
     title: "محصولات",
     newTab: false,
     submenu: [
       {
-        id: 21,
-        title: "زیر ساخت نئوبانک",
+        id: 11,
+        title: "زیرساخت نئوبانک",
         path: "/products/neobank",
         newTab: false,
       },
       {
-        id: 22,
-        title: "زیر ساخت پرداخت یاری",
+        id: 12,
+        title: "زیرساخت پرداخت‌یاری",
         path: "/products/payment-facility",
         newTab: false,
       },
     ],
   },
   {
-    id: 3,
-    title: "درباره ما",
+    id: 2,
+    title: "راهکارها",
     path: "/about",
     newTab: false,
   },
   {
-    id: 4,
-    title: "بلاگ",
-    path: "/blog",
+    id: 3,
+    title: "مستندات",
+    path: "/contact",
     newTab: false,
   },
   {
-    id: 5,
-    title: "تماس با ما",
-    path: "/contact",
+    id: 4,
+    title: "درباره ما",
+    path: "/about",
     newTab: false,
   },
 ];
