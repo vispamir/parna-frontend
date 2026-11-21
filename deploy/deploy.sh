@@ -31,7 +31,7 @@ docker compose -p parnasoft -f "$directory/docker-compose.yml" up -d --no-build 
 for _ in $(seq 1 90); do
   actual="$(docker inspect "$container" --format '{{.Image}}' 2>/dev/null || true)"
   health="$(docker inspect "$container" --format '{{if .State.Health}}{{.State.Health.Status}}{{else}}{{.State.Status}}{{end}}' 2>/dev/null || true)"
-  if [[ "$actual" == "$expected" && "$health" == healthy ]] && curl -fsS -H "Host: parnasoft.ir" http://127.0.0.1/ | grep -q "پرنا"; then
+  if [[ "$actual" == "$expected" && "$health" == healthy ]] && curl -fsS -H "Host: parnasoft.ir" -H "X-Forwarded-Proto: https" http://127.0.0.1/ | grep -q "پرنا"; then
     echo "$container is healthy on $expected"
     exit 0
   fi
