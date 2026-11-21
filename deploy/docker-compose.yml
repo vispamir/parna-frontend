@@ -1,0 +1,33 @@
+services:
+  frontend:
+    image: parnasoft/frontend:production
+    container_name: parnasoft-frontend
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18086:3000"
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      PORT: "3000"
+      SITE_URL: https://parnasoft.ir
+    labels:
+      com.centurylinklabs.watchtower.enable: "true"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3000/').then((r)=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 15s
+    networks:
+      - ofox
+
+networks:
+  ofox:
+    external: true
+    name: ofox
