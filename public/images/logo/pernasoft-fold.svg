@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="cap" x1="130" y1="164" x2="404" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#397BFF"/>
+      <stop offset=".49" stop-color="#3157D5"/>
+      <stop offset="1" stop-color="#5736B8"/>
+    </linearGradient>
+    <linearGradient id="upper-fold" x1="107" y1="308" x2="406" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111B55"/>
+      <stop offset=".44" stop-color="#3157D5"/>
+      <stop offset="1" stop-color="#8055E8"/>
+    </linearGradient>
+    <linearGradient id="base" x1="102" y1="313" x2="403" y2="389" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3157D5"/>
+      <stop offset=".5" stop-color="#111B55"/>
+      <stop offset="1" stop-color="#5736B8"/>
+    </linearGradient>
+    <linearGradient id="lower-fold" x1="156" y1="426" x2="402" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3157D5"/>
+      <stop offset="1" stop-color="#8055E8"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="227" y1="77" x2="282" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#397BFF"/>
+      <stop offset="1" stop-color="#8055E8"/>
+    </linearGradient>
+    <path id="upper" fill-rule="evenodd" d="M82 241Q82 216 105 201L168 159Q188 146 209 157L244 176Q256 183 268 176L303 157Q324 146 344 159L407 201Q430 216 430 241V289Q430 297 422 292Q404 280 383 292L273 354Q256 364 239 354L129 292Q108 280 90 292Q82 297 82 289Z M246 257Q256 251 266 257L312 283Q324 290 312 297L266 323Q256 329 246 323L200 297Q188 290 200 283Z"/>
+    <path id="lower" d="M82 320Q82 313 90 307Q108 295 129 307L239 369Q256 379 273 369L383 307Q404 295 422 307Q430 313 430 320V341Q430 366 407 381L280 456Q256 470 232 456L105 381Q82 366 82 341Z"/>
+    <clipPath id="clip-upper"><use href="#upper" clip-rule="evenodd"/></clipPath>
+    <clipPath id="clip-lower"><use href="#lower"/></clipPath>
+  </defs>
+  <g transform="translate(0 -8)">
+    <path fill="url(#tile)" d="M245 70Q256 63 267 70L298 89Q313 99 298 109L267 128Q256 135 245 128L214 109Q199 99 214 89Z"/>
+    <use href="#upper" fill="url(#cap)"/>
+    <path clip-path="url(#clip-upper)" fill="url(#upper-fold)" d="M72 319L307 177Q328 164 350 177L413 215Q432 227 441 248Q409 226 377 244L170 365Z"/>
+    <use href="#lower" fill="url(#base)"/>
+    <path clip-path="url(#clip-lower)" fill="url(#lower-fold)" d="M145 442L383 307Q404 295 422 307Q438 318 445 335V473H145Z"/>
+  </g>
+</svg>

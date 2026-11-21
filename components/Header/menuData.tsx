@@ -18,6 +18,18 @@ const menuData: Menu[] = [
         path: "/products/payment-facility",
         newTab: false,
       },
+      {
+        id: 13,
+        title: "زیرساخت مدیریت کسب‌وکار",
+        path: "/products/business-management",
+        newTab: false,
+      },
+      {
+        id: 14,
+        title: "زیرساخت مدیریت آموزش",
+        path: "/products/education-management",
+        newTab: false,
+      },
     ],
   },
   {
