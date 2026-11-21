@@ -1,4 +1,4 @@
-import Reveal from "@/components/PaymentFacility/Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const steps = [
   { step: "01", title: "ایجاد حساب" },

@@ -10,7 +10,7 @@ import {
   UsersRound,
   Workflow,
 } from "lucide-react";
-import Reveal from "@/components/PaymentFacility/Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const items = [
   { icon: KeyRound, label: "احراز هویت" },

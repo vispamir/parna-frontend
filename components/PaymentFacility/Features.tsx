@@ -8,7 +8,7 @@ import {
   Wallet,
   Webhook,
 } from "lucide-react";
-import Reveal from "./Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const features = [
   {

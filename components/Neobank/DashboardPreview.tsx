@@ -1,4 +1,4 @@
-import Reveal from "@/components/PaymentFacility/Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const overview = [
   { label: "کل مشتریان", value: "۲۴٬۱۸۰" },

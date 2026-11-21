@@ -8,7 +8,7 @@ import {
   Shield,
   UsersRound,
 } from "lucide-react";
-import Reveal from "./Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const items = [
   { icon: Shield, label: "امنیت لایه دسترسی" },

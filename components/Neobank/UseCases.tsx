@@ -6,7 +6,7 @@ import {
   Puzzle,
   Store,
 } from "lucide-react";
-import Reveal from "@/components/PaymentFacility/Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const cases = [
   {

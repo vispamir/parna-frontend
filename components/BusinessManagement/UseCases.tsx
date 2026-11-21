@@ -5,7 +5,7 @@ import {
   Store,
   Truck,
 } from "lucide-react";
-import Reveal from "./Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const useCases = [
   {

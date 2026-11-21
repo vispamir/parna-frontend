@@ -6,7 +6,7 @@ import {
   Server,
   Webhook,
 } from "lucide-react";
-import Reveal from "./Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const techItems = [
   { icon: Server, label: "REST API" },

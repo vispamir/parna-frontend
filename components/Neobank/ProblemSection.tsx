@@ -1,5 +1,5 @@
 import { Clock3, Link2, Scale, Workflow } from "lucide-react";
-import Reveal from "@/components/PaymentFacility/Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const problems = [
   {

@@ -6,7 +6,7 @@ import {
   Store,
   Wallet,
 } from "lucide-react";
-import Reveal from "./Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const items = [
   { icon: CreditCard, label: "اتصال به سرویس‌های پرداخت" },

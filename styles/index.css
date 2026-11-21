@@ -29,8 +29,13 @@
     @apply opacity-100;
   }
 
+  /* Visible by default so SSR/no-hydration never leaves content blank */
   .pf-reveal {
-    @apply translate-y-4 opacity-0 transition duration-700 ease-out;
+    @apply translate-y-0 opacity-100 transition duration-700 ease-out;
+  }
+
+  html.js-reveal .pf-reveal:not(.is-visible) {
+    @apply translate-y-4 opacity-0;
   }
 
   .pf-reveal.is-visible {

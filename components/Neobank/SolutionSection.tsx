@@ -1,4 +1,4 @@
-import Reveal from "@/components/PaymentFacility/Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const modules = ["حساب", "دفترکل", "کارت", "کیف پول"];
 const secondary = ["تراکنش", "موجودی", "پرداخت", "تسویه"];

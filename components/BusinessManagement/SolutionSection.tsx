@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Reveal from "./Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const nodes = [
   { id: "crm", label: "فروش و CRM", x: 18, y: 18 },

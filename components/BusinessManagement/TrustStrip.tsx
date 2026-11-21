@@ -6,7 +6,7 @@ import {
   UserRoundCog,
   Workflow,
 } from "lucide-react";
-import Reveal from "./Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const items = [
   { icon: Users, label: "فروش و CRM" },

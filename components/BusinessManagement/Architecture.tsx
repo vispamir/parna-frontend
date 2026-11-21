@@ -7,7 +7,7 @@ import {
   ShieldCheck,
   Workflow,
 } from "lucide-react";
-import Reveal from "./Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const technicalTraits = [
   { icon: ShieldCheck, label: "دسترسی‌پذیری بالا" },

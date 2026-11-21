@@ -1,4 +1,4 @@
-import Reveal from "./Reveal";
+import Reveal from "@/components/Common/Reveal";
 
 const metrics = [
   { label: "فراگیران فعال", value: "۱٬۲۴۰", hint: "ترم جاری" },
